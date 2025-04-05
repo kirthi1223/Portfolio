@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <title>My Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+  </head>
+
+  <style>
+    body {
+      background-image: url(bg.png);
+      background-size: cover;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 30px 100px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 100;
+    }
+
+    p {
+      font-family: Georgia, "Times New Roman", Times, serif;
+    }
+
+    .logo {
+      font-size: 2em;
+      color: #555;
+      cursor: default;
+    }
+
+    .logo span {
+      color: white;
+    }
+
+    .navigation {
+      margin-left: -300px;
+    }
+
+    .navigation a {
+      font-size: 1.1em;
+      color: #555;
+      text-decoration: none;
+      margin-right: 40px;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    .navigation a:hover {
+      color: #7d2ae8;
+    }
+
+    .btn-talk {
+      color: #fff;
+      text-decoration: none;
+      padding: 8px 35px;
+      background: #7d2ae8;
+      border-radius: 10px;
+      border: 2px solid #7d2ae8;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    .btn-talk:hover {
+      color: #7d2ae8;
+      background: transparent;
+    }
+
+    .home {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      background: url("background.jpg");
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      padding: 30px 100px;
+    }
+
+    .content {
+      max-width: 500px;
+      color: #555;
+    }
+
+    .content h2 {
+      font-size: 3em;
+    }
+
+    .content h2 span {
+      color: #ffffff;
+    }
+
+    .content h4 {
+      font-size: 2em;
+    }
+
+    .content p {
+      padding: 10px 0 40px 0;
+    }
+
+    .btn-group a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 40px;
+      background: #7d2ae8;
+      border-radius: 10px;
+      border: 2px solid #7d2ae8;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    .btn-group a:hover:nth-child(1) {
+      color: #7d2ae8;
+      background: transparent;
+    }
+
+    .btn-group a:nth-child(2) {
+      color: #7d2ae8;
+      background: transparent;
+      margin-left: 30px;
+      padding: 10px 30px;
+    }
+
+    .btn-group a:hover:nth-child(2) {
+      color: #fff;
+      background: #7d2ae8;
+    }
+
+    .social-icons {
+      position: absolute;
+      bottom: 50px;
+    }
+
+    .social-icons a {
+      display: inline-block;
+      width: 35px;
+      height: 35px;
+      background: #7d2ae8;
+      border-radius: 50%;
+      margin-right: 22px;
+      text-align: center;
+      line-height: 35px;
+      border: 1px solid #fff;
+      outline: 2px solid #7d2ae8;
+      transition: 0.3s;
+    }
+
+    .social-icons a:hover {
+      transform: translateY(-5px);
+    }
+
+    .social-icons a i {
+      color: #fff;
+    }
+
+    footer {
+      position: fixed;
+      bottom: 0px;
+      width: 100%;
+      height: 90px;
+    }
+  </style>
+
+  <body>
+    <header>
+      <h2 class="logo"><span>W</span>elcome To My <span>P</span>ortfolio</h2>
+      <a href="mailto:kiruthikaammu655@gmail.com" class="btn-talk"
+        >Let's Talk</a
+      >
+    </header>
+
+    <section class="home">
+      <div class="content">
+        <h2>Hi, I'm <span>Kiruthika A</span></h2>
+        <h4>Frontend Developer</h4>
+        <p>
+          I'm an enthusiastic fresher who is hardworking, highly motivated and
+          eager to learn new technologies.I am always ready to take on
+          challenges and adapt to new oppertunities with a positive mindset.
+        </p>
+        <div class="btn-group">
+          <a href="KIRUTHIKA-A.pdf">Resume</a>
+          <a href="AboutMe.html">About</a>
+        </div>
+        <footer>
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/in/ammu-kiruthika-4849262a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/kirthi1223"><i class="fa-brands fa-github"></i></a>
+            <a
+              href="https://wa.me/+917639792576?text=Hi,%20Kiruthika%20are%20you%20available%20to%20Talk"
+              target="_blank"
+              ><i class="fa-brands fa-whatsapp"></i
+            ></a>
+          </div>
+        </footer>
+      </div>
+    </section>
+  </body>
+</html>
